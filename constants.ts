@@ -245,6 +245,6 @@ export const CERTIFICATIONS: Certification[] = [
     title: 'Cisco Networking Certificate',
     issuer: 'Cisco Systems',
     description: 'Certified in network fundamentals, routing, and switching technologies.',
-    image: '/certifications/placeholder-cert.png'
+    image: '/certifications/placeholder1-cert.png'
   }
 ];
