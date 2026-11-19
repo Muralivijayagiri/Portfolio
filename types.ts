@@ -1,3 +1,5 @@
+import type { LucideIcon } from 'lucide-react';
+
 export interface Project {
   id: string;
   title: string;
@@ -17,7 +19,7 @@ export interface Skill {
 export interface SkillCategory {
   title: string;
   skills: Skill[];
-  icon: any; // React Component
+  icon: LucideIcon;
 }
 
 export interface Achievement {
@@ -25,7 +27,7 @@ export interface Achievement {
   title: string;
   description: string;
   count?: string;
-  icon: any;
+  icon: LucideIcon;
 }
 
 export interface Certification {
