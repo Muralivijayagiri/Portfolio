@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { ArrowRight, Github, Linkedin, Mail, Download, Briefcase, Twitter, Code2 } from 'lucide-react';
+import { ArrowRight, Github, Linkedin, Mail, Twitter, Code2 } from 'lucide-react';
 import { Button } from './UI';
 
 const Hero: React.FC = () => {

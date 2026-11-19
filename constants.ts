@@ -1,7 +1,7 @@
 import { Project, SkillCategory, Achievement, Certification, NavItem } from './types';
 import {
   Code, Layout, Smartphone, Database, Cloud, Cpu,
-  Trophy, Star, Award, Terminal
+  Trophy, Star, Terminal
 } from 'lucide-react';
 
 export const NAV_ITEMS: NavItem[] = [

@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Section, SectionHeading, Button, Card } from './UI';
-import { Mail, MapPin, Send, Loader2, Github, Linkedin, Code, Twitter, Code2 } from 'lucide-react';
+import { Mail, MapPin, Send, Loader2, Github, Linkedin, Twitter, Code2 } from 'lucide-react';
 
 const Contact: React.FC = () => {
   const [isSubmitting, setIsSubmitting] = useState(false);

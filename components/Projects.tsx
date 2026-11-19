@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Section, SectionHeading, Card, Button } from './UI';
 import { PROJECTS } from '../constants';
-import { ExternalLink, Github, Layers } from 'lucide-react';
+import { ExternalLink, Github } from 'lucide-react';
 
 const Projects: React.FC = () => {
   const [filter, setFilter] = useState<string>('All');
